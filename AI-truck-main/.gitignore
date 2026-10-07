@@ -1,0 +1,16 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.npy
+*.cache
+*.log
+
+# Base YOLO models (auto-downloaded by ultralytics)
+yolov8m.pt
+yolov8n.pt
+
+# Intermediate training checkpoints
+ml-model-main/runs/
+runs/
+scratch/

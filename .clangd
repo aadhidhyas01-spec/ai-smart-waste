@@ -1,0 +1,18 @@
+CompileFlags:
+  Add:
+    - "-xc++"
+    - "-std=gnu++17"
+    - "-DESP32"
+    - "-DARDUINO=10819"
+    - "-DARDUINO_ARCH_ESP32"
+    - "-DARDUINO_BOARD=\"ESP32_DEV\""
+    - "-IC:/Users/dhara/AppData/Local/Arduino15/packages/esp32/hardware/esp32/3.3.12/cores/esp32"
+    - "-IC:/Users/dhara/AppData/Local/Arduino15/packages/esp32/hardware/esp32/3.3.12/variants/esp32"
+    - "-IC:/Users/dhara/AppData/Local/Arduino15/packages/esp32/hardware/esp32/3.3.12/libraries/Network/src"
+    - "-IC:/Users/dhara/AppData/Local/Arduino15/packages/esp32/hardware/esp32/3.3.12/libraries/WiFi/src"
+    - "-IC:/Users/dhara/AppData/Local/Arduino15/packages/esp32/hardware/esp32/3.3.12/libraries/Wire/src"
+    - "-IC:/Users/dhara/OneDrive/windows apps/Arduino/libraries/Adafruit_PWM_Servo_Driver_Library"
+    - "-IC:/Users/dhara/OneDrive/windows apps/Arduino/libraries/Adafruit_BusIO"
+Diagnostics:
+  Suppress:
+    - "*"

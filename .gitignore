@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.part
+*.npy
+
+# Training runs & caches (avoid uploading multi-GB training weights)
+runs/
+**/runs/
+*.cache
+**/*.cache
+*.bak
+**/*.bak
+
+# YOLO weights: ignore intermediate weights and base weights, keep fine-tuned production weight
+*.pt
+**/*.pt
+!**/weights/best_trash_yolov8m.pt
+
+# Distribution & environments
+build/
+dist/
+venv/
+env/
+.env
+
+# Editor & OS files
+.vscode/
+**/.vscode/
+.clangd/
+**/.clangd/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
